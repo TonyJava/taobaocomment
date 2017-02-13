@@ -1,8 +1,7 @@
 # 说明
 由于Github 打包的exe某些文件上传被.gitignore了，所以不提供windows二进制包
 
-弃用！只能手动复制cookie进subcookie!!!!!!!!!!!!!!!废弃！！
-
+弃用！只能手动复制cookie进subcookie!!!!!!!!!!!!!!!废弃！！该项目失败特多，淘宝天猫需登录后。。。
 <img src='https://raw.githubusercontent.com/hunterhug/taobaocomment/master/seeme0.jpg' />
 
 一个抓取淘宝评论的Python爬虫
@@ -73,6 +72,7 @@ python taobaocomment.py
 
 
 #演示
+下面图片出错，是关键字图片
 <img src='https://raw.githubusercontent.com/hunterhug/taobaoscrapy/master/seeme1.jpg' />
 
 
