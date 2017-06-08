@@ -25,6 +25,33 @@
 	-------taobao.txt	抓的商品网址
 ```
 
+# 二.Docker版环境
+
+Docker版安装：
+
+请不要自己`docker pull python`，而是自己`build`!
+
+build:
+
+```
+docker build -t mypython .
+```
+
+然后:
+
+```
+docker run --rm -it -v $PWD:/taobao --name="my-python" mypython /bin/bash
+
+cd /taobao/source
+python taobaocomment.py
+```
+
+杀docker容器请使用
+
+```
+docker kill my-python
+```
+
 # 二.环境准备
 
 安装[python3](https://www.python.org/downloads/)。然后设置环境变量设置。
