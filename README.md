@@ -17,13 +17,13 @@
 # 一.项目结构
 
 ```
-taobaocomment
--------source	源代码
--------exe
--------exe.rar	请解压变成exe
--------excel	你要的结果
--------run.bat	你要跑的脚本
--------taobao.txt	抓的商品网址
+-----taobaocomment
+	-------source	源代码
+	-------exe
+	-------exe.rar	请解压变成exe
+	-------excel	你要的结果
+	-------run.bat	你要跑的脚本
+	-------taobao.txt	抓的商品网址
 ```
 
 # 二.环境准备
@@ -37,8 +37,15 @@ taobaocomment
 ```
 sudo pip3 install pymysql
 sudo pip3 install xlsxwriter
+sudo pip3 install bs4
 ```
 
+其实你只要键入这个即可！
+
+```
+pip3 install -r requirement.txt
+
+```
 ## 2.很难找到的模块
 
 从[万能仓库](http://www.lfd.uci.edu/~gohlke/pythonlibs/#cx_freeze) 下载对应版本的打包库,然后:
@@ -83,9 +90,14 @@ http://a.m.taobao.com/i44628690678.htm?&abtest=16&sid=ceff9ca9adb294b3459844e364
 
 ```
 run.bat
+
 或者
 cd source
 python taobaocomment.py
+
+或者
+
+pythonrun.bat
 ```
 
 

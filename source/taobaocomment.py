@@ -1,4 +1,6 @@
 # -*- coding:utf-8 -*-
+__author__ = 'hunterhug'
+
 import urllib.request, urllib.parse, http.cookiejar
 import os, time,re
 import http.cookies
@@ -8,8 +10,7 @@ from PIL import Image
 import pymysql
 import socket
 from bs4 import BeautifulSoup
-__author__ = 'hunterhug'
-# http://python.jobbole.com/81344/
+
 # 拆分JSON
 import xml.dom.minidom
 import json
