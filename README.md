@@ -7,8 +7,11 @@
 使用python3.4，爬虫程序已经封装好，支持抓取天猫/淘宝的评论
 
 >更多说明参考pdf
+>更多说明参考pdf
+>更多说明参考pdf
+>更多说明参考pdf
 
-项目结构
+# 一.项目结构
 
 ```
 taobaocomment
@@ -20,7 +23,7 @@ taobaocomment
 -------taobao.txt	抓的商品网址
 ```
 
-# 环境准备
+# 二.环境准备
 
 安装[python3](https://www.python.org/downloads/)。然后设置环境变量设置。
 
@@ -59,7 +62,7 @@ python setup.py build
 
 把`exe.win32-3.4`文件夹移到根目录，改名为exe
 
-# 开始使用
+# 三.开始使用
 
 先往`taobao.txt`中按行写入商品链接
 
@@ -83,7 +86,7 @@ python taobaocomment.py
 ```
 
 
-#演示
+# 四.演示
 
 ![](doc/help.png)
 ![](doc/excel.png)
