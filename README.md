@@ -1,6 +1,6 @@
-# 天猫淘宝评论说明
+# 天猫淘宝商品评论爬虫说明
 
-一个抓取淘宝评论的Python爬虫。仍然能跑，2017/6。
+一个抓取天猫淘宝评论的Python爬虫。仍然能跑，2017/6。
 
 ![](doc/index.jpg)
 
@@ -19,10 +19,9 @@
 ```
 -----taobaocomment
 	-------source	源代码
-	-------exe
-	-------exe.rar	请解压变成exe
 	-------excel	你要的结果
 	-------run.bat	你要跑的脚本
+	-------exe.rar	请解压变成exe
 	-------taobao.txt	抓的商品网址
 ```
 
@@ -54,7 +53,22 @@ pip3 install -r requirement.txt
 pip3 install cx_Freeze-4.3.4-cp35-none-win_amd64.whl
 ```
 
-同时下载`PIL`，将`Pillow‑3.4.2‑cp34‑cp34m‑win32.whl` 改名 `Pillow‑3.4.2‑cp34‑none‑win32.whl` (装不了就改成none)
+下载图形包`PIL`:
+
+```
+Pillow, a replacement for PIL, the Python Image Library, which provides image processing functionality and supports many file formats.
+Use `from PIL import Image` instead of `import Image`.
+
+    Pillow-3.3.0-cp27-cp27m-win32.whl
+    Pillow-3.3.0-cp27-cp27m-win_amd64.whl
+    Pillow-3.3.0-cp34-cp34m-win32.whl
+    Pillow-3.3.0-cp34-cp34m-win_amd64.whl
+    Pillow-3.3.0-cp35-cp35m-win32.whl
+    Pillow-3.3.0-cp35-cp35m-win_amd64.whl
+
+```
+
+将`Pillow‑3.4.2‑cp34‑cp34m‑win32.whl` 改名 `Pillow‑3.4.2‑cp34‑none‑win32.whl` (装不了就改成none)
 
 ```
 pip3 install Pillow‑3.4.2‑cp34‑none‑win32.whl
