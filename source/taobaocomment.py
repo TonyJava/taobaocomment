@@ -192,16 +192,21 @@ def timetochina(longtime,formats='{}天{}小时{}分钟{}秒'):
 	except:
 		raise Exception('时间非法')
 
+
 def begin():
     sangjin = '''
-		-----------------------------------------
-		| 欢迎使用自动抓取天猫淘宝评论程序   	|
-		| 时间：2016年1月7日                    |
-		| 更新时间：2017年6月5日                |
-		| 微信/QQ：569929309                    |
-		-----------------------------------------
+		-------------------------------------------------
+		| 欢迎使用自动抓取天猫淘宝评论程序   		|
+		| 代码上传时间：2016年1月7日  			|
+		| 更新时间：2017年6月5日                	|
+		| QQ  ：459527502                   		|
+		| Github：https://github.com/hunterhug          |
+		| 技术咨询：https://segmentfault.com/u/hunterhug|
+		------------------------------------------------
 	'''
     print(sangjin)
+
+
 
 def taobao(returncomment,max=200):
 	"""
@@ -341,7 +346,7 @@ def tmall(returncomment,max=99):
 
 if __name__ == '__main__':
 	# 明天的时间
-	year = 2017
+	year = 2018
 	month = 7
 	day =18
 	ispass,remainday = ispasstime(year,month,day)
