@@ -2,7 +2,11 @@
 
 ![](doc/index.jpg)
 
+
+本人开了新库，使用Golang语言，速度更快----更多精彩请移动到[https://github.com/hunterhug/GoTaoBao](https://github.com/hunterhug/GoTaoBao)
+
 使用python3.4，爬虫程序已经封装好，支持抓取天猫/淘宝的评论
+
 
 >更多说明参考pdf
 
@@ -149,4 +153,12 @@ pythonrun.bat
 Do not understand?contact me.<br/>
 author:hunterhug<br/>
 2015/11
+
+如果你觉得项目帮助到你,欢迎请我喝杯咖啡， 或加QQ：459527502
+
+微信
+![微信](https://raw.githubusercontent.com/hunterhug/hunterhug.github.io/master/static/jpg/wei.png)
+
+支付宝
+![支付宝](https://raw.githubusercontent.com/hunterhug/hunterhug.github.io/master/static/jpg/ali.png)
 
