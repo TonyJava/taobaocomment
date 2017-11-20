@@ -2,19 +2,7 @@
 
 ![](doc/index.jpg)
 
-
-本人开了新库，使用Golang语言，速度更快----更多精彩请移动到[https://github.com/hunterhug/GoTaoBao](https://github.com/hunterhug/GoTaoBao)
-
-使用python3.4，爬虫程序已经封装好，支持抓取天猫/淘宝的评论
-
-
->更多说明参考pdf
-
->更多说明参考pdf
-
->更多说明参考pdf
-
->更多说明参考pdf
+本人开了新库，使用Golang语言，更多精彩请移动到[https://github.com/hunterhug/GoTaoBao](https://github.com/hunterhug/GoTaoBao)
 
 # 一.项目结构
 
@@ -27,87 +15,20 @@
 	-------taobao.txt	抓的商品网址
 ```
 
-# 二.Docker版环境
-
-Docker版安装：
-
-请不要自己`docker pull python`，而是自己`build`!
-
-build:
-
-```
-docker build -t mypython .
-```
-
-然后:
-
-```
-docker run --rm -it -v $PWD:/taobao --name="my-python" mypython /bin/bash
-
-cd /taobao/source
-python taobaocomment.py
-```
-
-杀docker容器请使用
-
-```
-docker kill my-python
-```
-
 # 二.环境准备
 
 安装[python3](https://www.python.org/downloads/)。然后设置环境变量设置。
 
 ## 1.安装依赖模块
 
-依赖模块有`pymysql`, `xlswriter`, `bs4`
-
-```
-sudo pip3 install pymysql
-sudo pip3 install xlsxwriter
-sudo pip3 install bs4
-```
-
-其实你只要键入这个即可！
-
 ```
 pip3 install -r requirement.txt
 
 ```
-## 2.很难找到的模块
 
-从[万能仓库](http://www.lfd.uci.edu/~gohlke/pythonlibs/#cx_freeze) 下载对应版本的打包库,然后:
+## 2.打包exe
 
-```
-pip3 install cx_Freeze-4.3.4-cp35-none-win_amd64.whl
-```
-
-下载图形包`PIL`:
-
-```
-Pillow, a replacement for PIL, the Python Image Library, which provides image processing functionality and supports many file formats.
-Use `from PIL import Image` instead of `import Image`.
-
-    Pillow-3.3.0-cp27-cp27m-win32.whl
-    Pillow-3.3.0-cp27-cp27m-win_amd64.whl
-    Pillow-3.3.0-cp34-cp34m-win32.whl
-    Pillow-3.3.0-cp34-cp34m-win_amd64.whl
-    Pillow-3.3.0-cp35-cp35m-win32.whl
-    Pillow-3.3.0-cp35-cp35m-win_amd64.whl
-
-```
-
-将`Pillow‑3.4.2‑cp34‑cp34m‑win32.whl` 改名 `Pillow‑3.4.2‑cp34‑none‑win32.whl` (装不了就改成none)
-
-```
-pip3 install Pillow‑3.4.2‑cp34‑none‑win32.whl
-```
-
-## 3.打包exe
-
-转到源代码文件夹`source`
-
-执行打包命令！
+转到源代码文件夹`source`, 执行打包命令！
 
 ```
 python setup.py build
@@ -154,7 +75,7 @@ Do not understand?contact me.<br/>
 author:hunterhug<br/>
 2015/11
 
-如果你觉得项目帮助到你,欢迎请我喝杯咖啡， 或加QQ：459527502
+如果你觉得项目帮助到你,欢迎请我喝杯咖啡
 
 微信
 ![微信](https://raw.githubusercontent.com/hunterhug/hunterhug.github.io/master/static/jpg/wei.png)

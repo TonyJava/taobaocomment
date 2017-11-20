@@ -3,3 +3,5 @@ bs4
 
 # 其他依赖请自行添加
 pymysql
+cx_freeze
+pillow
